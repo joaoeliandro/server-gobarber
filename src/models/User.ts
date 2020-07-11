@@ -15,10 +15,13 @@ class User {
     name: string;
 
     @Column()
+    email: string;
+
+    @Column()
     password: string;
 
     @Column()
-    email: string;
+    avatar: string;
 
     @CreateDateColumn()
     created_at: Date;
